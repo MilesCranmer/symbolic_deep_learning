@@ -16,16 +16,16 @@ Miles Cranmer, Alvaro Sanchez-Gonzalez, Peter Battaglia, Rui Xu, Kyle Cranmer, D
 
 For model:
 
-- PyTorch
-- PyTorch Geometric
-- 
+- pytorch
+- pytorch-geometric
+- numpy
 
 For simulations:
 
-- [JAX](https://github.com/google/jax) (simple N-body simulations)
-- [Quijote](https://github.com/franciscovillaescusa/Quijote-simulations) (Dark matter)
-
-> 📋Describe how to set up the environment, e.g. pip/conda/docker commands, download datasets, etc...
+- [jax](https://github.com/google/jax) (simple N-body simulations)
+- [quijote](https://github.com/franciscovillaescusa/Quijote-simulations) (Dark matter data)
+- tqdm
+- matplotlib
 
 ## Training
 
