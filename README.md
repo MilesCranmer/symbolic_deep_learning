@@ -17,8 +17,9 @@ Miles Cranmer, Alvaro Sanchez-Gonzalez, Peter Battaglia, Rui Xu, Kyle Cranmer, D
 For model:
 
 - pytorch
-- pytorch-geometric
+- [pytorch-geometric](https://github.com/rusty1s/pytorch_geometric)
 - numpy
+- [Eureqa](https://www.nutonian.com/download/eureqa-desktop-download/) (symbolic regression)
 
 For simulations:
 
@@ -29,23 +30,10 @@ For simulations:
 
 ## Training
 
-To train the model(s) in the paper, run this command:
+To train an example model from the paper, try out the [demo](https://drive.google.com/file/d/1mWK5LiSPYXG1qQBxvhwdLgvfhTrFBbsr/view?usp=sharing): 
 
-```train
-python train.py --input-data <path_to_data> --alpha 10 --beta 20
-```
+> TODO 📋Describe how to train the models, with example commands on how to train the models in your paper, including the full training procedure and appropriate hyperparameters.
 
-> 📋Describe how to train the models, with example commands on how to train the models in your paper, including the full training procedure and appropriate hyperparameters.
-
-## Evaluation
-
-To evaluate my model on ImageNet, run:
-
-```eval
-python eval.py --model-file mymodel.pth --benchmark imagenet
-```
-
-> 📋Describe how to evaluate the trained models on benchmarks reported in the paper, give commands that produce the results (section below).
 
 ## Pre-trained Models
 
@@ -53,11 +41,11 @@ You can download pretrained models here:
 
 - [My awesome model](https://drive.google.com/mymodel.pth) trained on ImageNet using parameters x,y,z. 
 
-> 📋Give a link to where/how the pretrained models can be downloaded and how they were trained (if applicable).  Alternatively you can have an additional column in your results table with a link to the models.
+> TODO 📋Give a link to where/how the pretrained models can be downloaded and how they were trained (if applicable).  Alternatively you can have an additional column in your results table with a link to the models.
 
 ## Results
 
-Our model achieves the following performance on :
+On the Newtonian simulations, each of these models achieve the following performance:
 
 ### [Image Classification on ImageNet](https://paperswithcode.com/sota/image-classification-on-imagenet)
 
