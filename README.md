@@ -1,20 +1,29 @@
-# "Discovering Symbolic Models from Deep Learning with Inductive Biases"
+# [Discovering Symbolic Models from Deep Learning with Inductive Biases](https://arxiv.org/abs/30000000000TODO)
 
 This repository is the official implementation of [Discovering Symbolic Models from Deep Learning with Inductive Biases](https://arxiv.org/abs/30000000000TODO). 
 
 Miles Cranmer, Alvaro Sanchez-Gonzalez, Peter Battaglia, Rui Xu, Kyle Cranmer, David Spergel, Shirley Ho
+- [Blog](https://astroautomata.com/paper/symbolic-neural-nets/)
+- [Paper](https://arxiv.org/abs/30000000000TODO)
+- [Video](https://youtu.be/2vwwu59RPL8)
+- [Interactive Demo](https://arxiv.org/abs/30000000000TODO)
+- [Repo](https://github.com/MilesCranmer/symbolic_deep_learning)
 
-![](images/discovering_symbolic_eqn_gn.png)
+[![](images/discovering_symbolic_eqn_gn.png)](https://astroautomata.com/paper/symbolic-neural-nets/)
 
-> 📋Optional: include a graphic explaining your approach/main result, bibtex entry, link to demos, blog posts and tutorials
 
 ## Requirements
 
-To install requirements:
+For model:
 
-```setup
-pip install -r requirements.txt
-```
+- PyTorch
+- PyTorch Geometric
+- 
+
+For simulations:
+
+- [JAX](https://github.com/google/jax) (simple N-body simulations)
+- [Quijote](https://github.com/franciscovillaescusa/Quijote-simulations) (Dark matter)
 
 > 📋Describe how to set up the environment, e.g. pip/conda/docker commands, download datasets, etc...
 
