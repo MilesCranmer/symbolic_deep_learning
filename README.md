@@ -1,10 +1,10 @@
-# [Discovering Symbolic Models from Deep Learning with Inductive Biases](https://arxiv.org/abs/30000000000TODO)
+# [Discovering Symbolic Models from Deep Learning with Inductive Biases](https://arxiv.org/abs/2006.11287)
 
-This [repository](https://github.com/MilesCranmer/symbolic_deep_learning) is the official implementation of [Discovering Symbolic Models from Deep Learning with Inductive Biases](https://arxiv.org/abs/30000000000TODO). 
+This [repository](https://github.com/MilesCranmer/symbolic_deep_learning) is the official implementation of [Discovering Symbolic Models from Deep Learning with Inductive Biases](https://arxiv.org/abs/2006.11287). 
 
 Miles Cranmer, Alvaro Sanchez-Gonzalez, Peter Battaglia, Rui Xu, Kyle Cranmer, David Spergel, Shirley Ho
 
-Check out our [Blog](https://astroautomata.com/paper/symbolic-neural-nets/), [Paper](https://arxiv.org/abs/30000000000TODO), [Video](https://youtu.be/2vwwu59RPL8), and [Interactive Demo](https://drive.google.com/file/d/1mWK5LiSPYXG1qQBxvhwdLgvfhTrFBbsr/view?usp=sharing).
+Check out our [Blog](https://astroautomata.com/paper/symbolic-neural-nets/), [Paper](https://arxiv.org/abs/2006.11287), [Video](https://youtu.be/2vwwu59RPL8), and [Interactive Demo](https://drive.google.com/file/d/1mWK5LiSPYXG1qQBxvhwdLgvfhTrFBbsr/view?usp=sharing).
 
 [![](images/discovering_symbolic_eqn_gn.png)](https://astroautomata.com/paper/symbolic-neural-nets/)
 
