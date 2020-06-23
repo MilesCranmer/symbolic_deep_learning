@@ -4,7 +4,7 @@ This [repository](https://github.com/MilesCranmer/symbolic_deep_learning) is the
 
 Miles Cranmer, Alvaro Sanchez-Gonzalez, Peter Battaglia, Rui Xu, Kyle Cranmer, David Spergel, Shirley Ho
 
-Check out our [Blog](https://astroautomata.com/paper/symbolic-neural-nets/), [Paper](https://arxiv.org/abs/2006.11287), [Video](https://youtu.be/2vwwu59RPL8), and [Interactive Demo](https://drive.google.com/file/d/1mWK5LiSPYXG1qQBxvhwdLgvfhTrFBbsr/view?usp=sharing).
+Check out our [Blog](https://astroautomata.com/paper/symbolic-neural-nets/), [Paper](https://arxiv.org/abs/2006.11287), [Video](https://youtu.be/2vwwu59RPL8), and [Interactive Demo](https://colab.research.google.com/github/MilesCranmer/symbolic_deep_learning/blob/master/GN_Demo_Colab.ipynb).
 
 [![](images/discovering_symbolic_eqn_gn.png)](https://astroautomata.com/paper/symbolic-neural-nets/)
 
@@ -27,7 +27,7 @@ For simulations:
 
 ## Training
 
-To train an example model from the paper, try out the [demo](https://drive.google.com/file/d/1mWK5LiSPYXG1qQBxvhwdLgvfhTrFBbsr/view?usp=sharing).
+To train an example model from the paper, try out the [demo](https://colab.research.google.com/github/MilesCranmer/symbolic_deep_learning/blob/master/GN_Demo_Colab.ipynb).
 
 Full model definitions are given in `models.py`. Data is generated from `simulate.py`.
 
