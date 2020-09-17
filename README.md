@@ -17,6 +17,7 @@ For model:
 - [pytorch-geometric](https://github.com/rusty1s/pytorch_geometric)
 - numpy
 - [Eureqa](https://www.nutonian.com/download/eureqa-desktop-download/) (symbolic regression)
+  - **Update - check out our package [Eureqa.jl](https://github.com/MilesCranmer/Eureqa.jl), which can be run from numpy**
 
 For simulations:
 
