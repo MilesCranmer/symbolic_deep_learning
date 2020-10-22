@@ -16,13 +16,14 @@ For model:
 - pytorch
 - [pytorch-geometric](https://github.com/rusty1s/pytorch_geometric)
 - numpy
-- [Eureqa](https://www.nutonian.com/download/eureqa-desktop-download/) (symbolic regression)
-  - **Update - check out our new symbolic regression package [PySR](https://github.com/MilesCranmer/PySR), which can be run from Python**
+
+Symbolic regression:
+- [PySR](https://github.com/MilesCranmer/PySR), our new open-source Eureqa alternative
 
 For simulations:
 
 - [jax](https://github.com/google/jax) (simple N-body simulations)
-- [quijote](https://github.com/franciscovillaescusa/Quijote-simulations) (Dark matter data)
+- [quijote](https://github.com/franciscovillaescusa/Quijote-simulations) (Dark matter data; optional)
 - tqdm
 - matplotlib
 
