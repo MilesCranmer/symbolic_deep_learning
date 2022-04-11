@@ -186,7 +186,7 @@ class SimulationDataset(object):
                 x0 = x0.at[..., 0].set(np.arange(n)+x0.at[...,0]*0.5)
                 x0 = x0.at[..., 2:3].set(0.0)
             else:
-                x0 = x0 = random.normal(key, (n, total_dim))
+                x0 = random.normal(key, (n, total_dim))
                 x0 = x0.at[..., -1].set(np.exp(x0[..., -1])); #all masses set to positive
                 if sim in ['charge', 'superposition']:
                     x0 = x0.at[..., -2].set(np.sign(x0[..., -2])); #charge is 1 or -1
