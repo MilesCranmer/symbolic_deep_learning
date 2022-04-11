@@ -182,14 +182,14 @@ class SimulationDataset(object):
         def make_sim(key):
             if sim in ['string', 'string_ball']:
                 x0 = random.normal(key, (n, total_dim))
-                x0 = x0.at[s_[..., -1]].set(1) #const mass
-                x0 = x0.at[s_[..., 0]].set(np.arange(n)+x0.at[...,0].get()*0.5)
-                x0 = x0.at[s_[..., 2:3]].set(0.0)
+                x0 = x0.at[..., -1].set(1) #const mass
+                x0 = x0.at[..., 0].set(np.arange(n)+x0.at[...,0]*0.5)
+                x0 = x0.at[..., 2:3].set(0.0)
             else:
                 x0 = x0 = random.normal(key, (n, total_dim))
-                x0 = x0.at[s_[..., -1]].set(np.exp(x0.at[..., -1].get())); #all masses set to positive
+                x0 = x0.at[..., -1].set(np.exp(x0[..., -1])); #all masses set to positive
                 if sim in ['charge', 'superposition']:
-                    x0 = x0.at[s_[..., -2]].set(np.sign(x0.at[..., -2].get())); #charge is 1 or -1
+                    x0 = x0.at[..., -2].set(np.sign(x0[..., -2])); #charge is 1 or -1
 
             x_times = odeint(
                 odefunc,
