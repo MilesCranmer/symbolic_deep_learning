@@ -1,6 +1,5 @@
 import jax
 from jax import ops
-from jax.ops import index_update
 from jax import numpy as np
 from matplotlib import pyplot as plt
 from jax import jit, vmap, grad, pmap
@@ -183,14 +182,14 @@ class SimulationDataset(object):
         def make_sim(key):
             if sim in ['string', 'string_ball']:
                 x0 = random.normal(key, (n, total_dim))
-                x0 = index_update(x0, s_[..., -1], 1); #const mass
-                x0 = index_update(x0, s_[..., 0], np.arange(n)+x0[...,0]*0.5)
-                x0 = index_update(x0, s_[..., 2:3], 0.0)
+                x0 = x0.at[..., -1].set(1) #const mass
+                x0 = x0.at[..., 0].set(np.arange(n)+x0.at[...,0]*0.5)
+                x0 = x0.at[..., 2:3].set(0.0)
             else:
                 x0 = random.normal(key, (n, total_dim))
-                x0 = index_update(x0, s_[..., -1], np.exp(x0[..., -1])); #all masses set to positive
+                x0 = x0.at[..., -1].set(np.exp(x0[..., -1])); #all masses set to positive
                 if sim in ['charge', 'superposition']:
-                    x0 = index_update(x0, s_[..., -2], np.sign(x0[..., -2])); #charge is 1 or -1
+                    x0 = x0.at[..., -2].set(np.sign(x0[..., -2])); #charge is 1 or -1
 
             x_times = odeint(
                 odefunc,
