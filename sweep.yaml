@@ -4,10 +4,9 @@
 # This setting contains a list of rules that Sweep will check for. If any of these rules are broken in a new commit, Sweep will create an pull request to fix the broken rule.
 rules:
   - "All docstrings and comments should be up to date."
-['All new business logic should have corresponding unit tests.', 'Refactor large functions to be more modular.', 'Add docstrings to all functions and file headers.']
 
 # This is the branch that Sweep will develop from and make pull requests to. Most people use 'main' or 'master' but some users also use 'dev' or 'staging'.
-branch: 'main'
+branch: 'master'
 
 # By default Sweep will read the logs and outputs from your existing Github Actions. To disable this, set this to false.
 gha_enabled: True
@@ -17,7 +16,7 @@ gha_enabled: True
 # Example:
 #
 # description: sweepai/sweep is a python project. The main api endpoints are in sweepai/api.py. Write code that adheres to PEP8.
-description: ''
+description: 'symbolic_deep_learning is a repository storing code from a research paper on symbolic regression and deep learning.'
 
 # This sets whether to create pull requests as drafts. If this is set to True, then all pull requests will be created as drafts and GitHub Actions will not be triggered.
 draft: False
